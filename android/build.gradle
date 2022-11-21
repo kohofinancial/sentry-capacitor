@@ -3,7 +3,7 @@ ext {
     androidxJunitVersion =  project.hasProperty('androidxJunitVersion') ? rootProject.ext.androidxJunitVersion : '1.1.1'
     androidxEspressoCoreVersion =  project.hasProperty('androidxEspressoCoreVersion') ? rootProject.ext.androidxEspressoCoreVersion : '3.2.0'
 }
-
+// replace jcenter with mavenCentral
 buildscript {
     repositories {
         google()
